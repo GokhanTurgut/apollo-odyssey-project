@@ -22,3 +22,5 @@ const typeDefs = gql`
     photo: String
   }
 `;
+
+export default typeDefs;
