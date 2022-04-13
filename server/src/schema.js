@@ -4,8 +4,10 @@ const typeDefs = gql`
   type Query {
     "Get tracks array for homepage grid"
     tracksForHome: [Track!]!
-    "Get a specific track with id"
+    "Get a specific track by id"
     track(id: ID!): Track
+    "Get details for a specific module by id"
+    module(id: ID!): Module
   }
 
   type Mutation {
@@ -37,6 +39,8 @@ const typeDefs = gql`
     id: ID!
     title: String!
     length: Int
+    videoUrl: String
+    content: String
   }
 
   "Author of a complete Track or a Module"
