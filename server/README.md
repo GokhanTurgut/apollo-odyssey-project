@@ -1,3 +1,10 @@
 # Catstronauts - server
 
-The starting point of the `server` code for Odyssey Lift-off I course.
+## Getting Started
+
+```
+git clone git@github.com:GokhanTurgut/apollo-odyssey-project.git
+cd apollo-odyssey-project/server
+npm install
+npm start
+```
